@@ -17,11 +17,11 @@
 
     <ImageView
         android:id="@+id/arrow_down"
-        android:layout_width="63"
-        android:layout_height="63"
+        android:layout_width="63dp"
+        android:layout_height="63dp"
         android:layout_marginBottom="16dp"
         android:background="@drawable/circle_bg"
-        android:padding="8"
+        android:padding="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -29,30 +29,30 @@
 
     <ImageView
         android:id="@+id/arrow_right"
-        android:layout_width="63"
-        android:layout_height="63"
+        android:layout_width="63dp"
+        android:layout_height="63dp"
         android:background="@drawable/circle_bg"
-        android:padding="8"
+        android:padding="8dp"
         app:layout_constraintBottom_toTopOf="@+id/arrow_down"
         app:layout_constraintStart_toEndOf="@+id/arrow_down"
         app:srcCompat="@drawable/right" />
 
     <ImageView
         android:id="@+id/arrow_left"
-        android:layout_width="63"
-        android:layout_height="63"
+        android:layout_width="63dp"
+        android:layout_height="63dp"
         android:background="@drawable/circle_bg"
-        android:padding="8"
+        android:padding="8dp"
         app:layout_constraintBottom_toTopOf="@+id/arrow_down"
         app:layout_constraintEnd_toStartOf="@+id/arrow_down"
         app:srcCompat="@drawable/left" />
 
     <ImageView
         android:id="@+id/arrow_up"
-        android:layout_width="63"
-        android:layout_height="63"
+        android:layout_width="63dp"
+        android:layout_height="63dp"
         android:background="@drawable/circle_bg"
-        android:padding="8"
+        android:padding="8dp"
         app:layout_constraintBottom_toTopOf="@+id/arrow_right"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
